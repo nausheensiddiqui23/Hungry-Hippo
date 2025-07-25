@@ -41,3 +41,8 @@ h2{
     color: #ff6b6b;
 }
 
+.category-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
