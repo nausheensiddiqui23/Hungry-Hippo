@@ -63,6 +63,12 @@ h2{
 
 .restaurant-list {
 display: grid;
-grid-template-columns: repeat(auto-fit);
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
 }
 
+.card {
+background: white;
+border-radius: 15px;
+box-shadow: 0 0 10px ;
+}
