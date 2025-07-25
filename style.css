@@ -44,5 +44,12 @@ h2{
 .category-list{
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+}
+
+.category{
+    background: #fff;
+    border: 2px solid #ff6b6b;
+    padding: 10px 15px;
 }
 
