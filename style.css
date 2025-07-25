@@ -51,5 +51,18 @@ h2{
     background: #fff;
     border: 2px solid #ff6b6b;
     padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.category:hover {
+    background: #ff6b6b;
+    color: white;
+}
+
+.restaurant-list {
+display: grid;
+grid-template-columns: repeat(auto-fit);
 }
 
