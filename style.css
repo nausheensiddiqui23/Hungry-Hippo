@@ -22,3 +22,22 @@ body{
     margin: 10px 0;
 }
 
+#searchbar{
+    margin-top: 15px;
+    padding: 12px 20px;
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.actegories, .popular {
+    padding: 20px;
+}
+
+h2{
+    margin-bottom: 15px;
+    color: #ff6b6b;
+}
+
