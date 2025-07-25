@@ -4,3 +4,21 @@ body{
     background: #fff8f0;
     color: #333;
 }
+
+.header{
+    background-color: #ff6b6b;
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+}
+
+.logo{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.tagline{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
