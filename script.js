@@ -1,3 +1,3 @@
-const restaurents = [
-    
+const restaurants = [
+
 ]
