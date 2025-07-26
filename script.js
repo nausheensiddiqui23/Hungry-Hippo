@@ -5,5 +5,11 @@ const restaurants = [
     location: "Delhi",
     rating: 4.3,
     image:
+},
+
+{
+    name: "Pizza Hut",
+    cuisine: "Italian",
+    location:
 }
 ]
