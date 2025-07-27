@@ -49,5 +49,7 @@ function displayRestaurants(data) {
          
          `;
          listContainer.appendChild(card);
-    })
+    });
 }
+
+displayRestaurants(restaurants);
