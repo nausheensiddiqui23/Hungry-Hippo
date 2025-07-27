@@ -12,7 +12,9 @@ const restaurants = [
     name: "Pizza Hut",
     cuisine: "Italian",
     location: "Mumbai",
-    rating: 4.0
+    rating: 4.0,
+    image: "assets/images/Pizza_hut_logo_international.svg"
+
 },
 
 {
@@ -26,7 +28,9 @@ const restaurants = [
   name: "Chinese wok",
   cuisine: "Chinese",
   location: "Kolkata",
-  rating: 4.1  
+  rating: 4.1 , 
+  image: "assets/images/chinese wok.avif"
+
 }
 ];
 
