@@ -4,7 +4,8 @@ const restaurants = [
     cuisine: "Fast Food",
     location: "Delhi",
     rating: 4.3,
-    
+    image: "assets/images/burger king.png"
+
 },
 
 {
@@ -19,7 +20,7 @@ const restaurants = [
     cuisine: "Indian",
     location: "Hyderabad",
     rating: 4.5,
-    
+    image: "assets/images/behrouz.jpeg"
 },
 {
   name: "Chinese wok",
