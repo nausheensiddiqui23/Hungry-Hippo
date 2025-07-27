@@ -32,4 +32,11 @@ const restaurants = [
 
 const listContainer = document.getElementById('restaurent-list');
 
-function displayRestaurants(data)
+function displayRestaurants(data) {
+    listContainer.innerHTML = '';
+
+    data.forEach ((res) => {
+        const card = document.createElement('div');
+        
+    })
+}
