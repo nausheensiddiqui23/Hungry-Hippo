@@ -37,6 +37,10 @@ function displayRestaurants(data) {
 
     data.forEach ((res) => {
         const card = document.createElement('div');
-        
+        card.classList.add('card');
+
+        card.innerHTML = `
+        <img src=">
+        `
     })
 }
