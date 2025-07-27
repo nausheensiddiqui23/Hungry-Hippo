@@ -47,6 +47,7 @@ function displayRestaurants(data) {
          <p>⭐ ${res.rating}</p>
          </div>
          
-         `
+         `;
+         listContainer.appendChild(card);
     })
 }
