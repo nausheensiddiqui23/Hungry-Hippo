@@ -43,8 +43,9 @@ function displayRestaurants(data) {
         <img src=">
          <div class="card-body">
          <h3>${res.name}</h3>
-         <p>
-         
+         <p>${res.cuisine} | ${res.location}</p>
+         <p>⭐ ${res.rating}</p>
+         </div>
          
          `
     })
