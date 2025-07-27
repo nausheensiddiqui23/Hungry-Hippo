@@ -4,7 +4,7 @@ const restaurants = [
     cuisine: "Fast Food",
     location: "Delhi",
     rating: 4.3,
-    image: "assets/images/burger king.png"
+    image: "assets/images/burger_king.png"
 
 },
 
@@ -13,7 +13,7 @@ const restaurants = [
     cuisine: "Italian",
     location: "Mumbai",
     rating: 4.0,
-    image: "assets/images/Pizza_hut_logo_international.svg"
+    image: "assets/images/Pizza_hut.svg"
 
 },
 
@@ -29,7 +29,7 @@ const restaurants = [
   cuisine: "Chinese",
   location: "Kolkata",
   rating: 4.1 , 
-  image: "assets/images/chinese wok.avif"
+  image: "assets/images/chinese_wok.avif"
 
 }
 ];
