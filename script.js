@@ -35,7 +35,7 @@ const restaurants = [
 ];
 
 
-const listContainer = document.getElementById('restaurent-list');
+const listContainer = document.getElementById('restaurant-list');
 
 function displayRestaurants(data) {
     listContainer.innerHTML = '';
@@ -45,7 +45,7 @@ function displayRestaurants(data) {
         card.classList.add('card');
 
         card.innerHTML = `
-        <img src=">
+         <img src="${res.image}" alt="${res.name}">
          <div class="card-body">
          <h3>${res.name}</h3>
          <p>${res.cuisine} | ${res.location}</p>
