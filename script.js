@@ -4,7 +4,7 @@ const restaurants = [
     cuisine: "Fast Food",
     location: "Delhi",
     rating: 4.3,
-    image:
+    
 },
 
 {
@@ -19,7 +19,7 @@ const restaurants = [
     cuisine: "Indian",
     location: "Hyderabad",
     rating: 4.5,
-    image:
+    
 },
 {
   name: "Hakka Express",
