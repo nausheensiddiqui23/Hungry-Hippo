@@ -41,6 +41,11 @@ function displayRestaurants(data) {
 
         card.innerHTML = `
         <img src=">
-        `
+         <div class="card-body">
+         <h3>${res.name}</h3>
+         <p>
+         
+         
+         `
     })
 }
