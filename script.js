@@ -13,7 +13,9 @@ const restaurants = [
     cuisine: "Italian",
     location: "Mumbai",
     rating: 4.0,
-    image: "assets/images/Pizza_hut.svg"
+    // image: "assets/images/Pizza_hut.svg",
+    image: "https://via.placeholder.com/300x180?text=Pizza+Hut"
+
 
 },
 
