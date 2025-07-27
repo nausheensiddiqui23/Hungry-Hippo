@@ -28,3 +28,8 @@ const restaurants = [
   rating: 4.1  
 }
 ];
+
+
+const listContainer = document.getElementById('restaurent-list');
+
+function displayRestaurants(data)
