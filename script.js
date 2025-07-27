@@ -22,7 +22,7 @@ const restaurants = [
     
 },
 {
-  name: "Hakka Express",
+  name: "Chinese wok",
   cuisine: "Chinese",
   location: "Kolkata",
   rating: 4.1  
