@@ -20,5 +20,11 @@ const restaurants = [
     location: "Hyderabad",
     rating: 4.5,
     image:
+},
+{
+  name: "Hakka Express",
+  cuisine: "Chinese",
+  location: "Kolkata",
+  rating: 4.1  
 }
-]
+];
