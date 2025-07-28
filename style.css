@@ -22,10 +22,13 @@ h1{
     color: #333;
 }
 
-.logo{
-    font-size: 2.5rem;
-    margin: 0;
+.logo {
+  font-size: 3rem;
+  color: #ff5252;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
+
 
 .tagline{
     font-size: 1.2rem;
