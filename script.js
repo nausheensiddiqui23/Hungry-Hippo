@@ -40,6 +40,14 @@ const restaurants = [
   rating: 4.5 , 
   image: "assets/images/mubeens.jpeg"
 
+},
+{
+  name: "The Hazelnut Factory",
+  cuisine: "Dessert",
+  location: "Lucknow",
+  rating: 3.9 , 
+  image: "assets/images/thf.jpeg"
+
 }
 ];
 
