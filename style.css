@@ -102,7 +102,7 @@ section.categories h2 {
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .card img {
