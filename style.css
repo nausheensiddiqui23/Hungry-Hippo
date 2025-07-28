@@ -1,4 +1,4 @@
-/* Reset and body setup */
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,19 +7,58 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #fdfdfd;
+  background-color: #d090da;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
+  padding: 0;
+  margin: 0;
 }
 
-/* Top branding + search bar */
-.categories {
+/* Hero Section Background */
+.hero-section {
+  background-image: url('bgimage.jpg'); /* Update path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   text-align: center;
-  margin-bottom: 40px;
+  color: white;
+  overflow: hidden;
+  padding: 60px 20px;
 }
 
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: 1;
+}
+
+.hero-section .content {
+  position: relative;
+  z-index: 2;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Logo and Search */
 .logo {
   font-size: 3rem;
   color: #d17ee0;
@@ -29,7 +68,7 @@ body {
 
 .tagline {
   font-size: 1.2rem;
-  color: #666;
+  color: #ddd;
   margin-bottom: 20px;
 }
 
@@ -44,11 +83,19 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* Category Section */
-section.categories h2 {
+/* Categories Section */
+.categories {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.categories h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
 }
 
 .category-list {
@@ -59,17 +106,19 @@ section.categories h2 {
 }
 
 .category {
-  background-color: #ffe5e5;
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 10px 20px;
   border-radius: 25px;
   font-weight: 500;
   cursor: pointer;
-  transition: background 0.2s;
-  border: 1px solid #d17ee0;
+  transition: background 0.2s, color 0.2s;
+  border: 1px solid #fff;
+  color: white;
 }
 
 .category:hover {
-  background-color: #ffb3b3;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
 }
 
 /* Popular Section */
@@ -77,12 +126,13 @@ section.categories h2 {
   width: 100%;
   max-width: 1200px;
   text-align: center;
+  padding: 40px 20px;
 }
 
 .popular h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff;
 }
 
 /* Restaurant Cards */
@@ -127,55 +177,3 @@ section.categories h2 {
   margin: 5px 0;
   color: #777;
 }
-.categories {
-  text-align: center;
-  margin-bottom: 40px;
-
-  /* Background image */
-  background-image: url('bgimage.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  padding: 80px 20px; /* give enough vertical space */
-  border-radius: 10px;
-}
-
-.hero-section {
-  background-image: url('/images/bg-hero.jpg'); /* Update with your image path */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  width: 100%;
-  min-height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 20px;
-
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Optional: dark overlay for readability */
-.hero-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-.hero-section .content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  width: 100%;
-}
-
-
-
-

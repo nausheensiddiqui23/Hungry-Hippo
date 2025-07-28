@@ -32,6 +32,14 @@ const restaurants = [
   rating: 4.1 , 
   image: "assets/images/chinese_wok.avif"
 
+},
+{
+  name: "Mubeens",
+  cuisine: "Mughlai",
+  location: "Lucknow",
+  rating: 4.5 , 
+  image: "assets/images/mubeens.jpeg"
+
 }
 ];
 
