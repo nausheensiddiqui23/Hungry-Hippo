@@ -75,7 +75,7 @@ function displayRestaurants(data) {
 }
 
 displayRestaurants(restaurants);
-const searchBar = document.getElementById('searchbar');
+const searchBar = document.getElementById('searchBar');
 
 searchBar.addEventListener('keyup', (event) => {
   const query = event.target.value.toLowerCase();
