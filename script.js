@@ -20,7 +20,7 @@ const restaurants = [
 
 {
     name: "Behrouz",
-    cuisine: "Mughlai",
+    cuisine: "Biryani",
     location: "Hyderabad",
     rating: 4.5,
     image: "assets/images/behrouz.jpeg"
@@ -67,6 +67,7 @@ function displayRestaurants(data) {
          <h3>${res.name}</h3>
          <p>${res.cuisine} | ${res.location}</p>
          <p>⭐ ${res.rating}</p>
+         <button class="view-btn" data-name="${res.name}">View More</button>
          </div>
          
          `;
