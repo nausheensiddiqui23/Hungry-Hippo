@@ -102,7 +102,23 @@ document.addEventListener('click', (e) => {
 
 function showDetails(restaurant) {
   const modal = document.createElement('div');
+modal.className = 'modal';
+modal.innerHTML = `
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>${restaurant.name}</h2>
+      <img src="${restaurant.image}" alt="${restaurant.name}" />
+      <p><strong>Cuisine:</strong> ${restaurant.cuisine}</p>
+      <p><strong>Location:</strong> ${restaurant.location}</p>
+      <p><strong>Rating:</strong> ⭐ ${restaurant.rating}</p>
+      <p><strong>Description:</strong> A great place to enjoy ${restaurant.cuisine} food.</p>
+    </div>
+  `;
 
+  document.body.appendChild(modal);
+
+  document.querySelector('.close-btn').onclick = () => modal.remove();
+}
 
 });
 const categoryButtons = document.querySelectorAll('.category');
