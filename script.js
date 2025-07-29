@@ -91,5 +91,7 @@ displayRestaurants(filtered);
 const categoryButtons = document.querySelectorAll('.category');
 
 categoryButtons.forEach(button => {
-  
+  button.addEventListener('click', () => {
+    const selectedCuisine = button.textContent.trim();
+
 })
