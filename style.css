@@ -195,3 +195,12 @@ body {
   align-items: center;
   z-index: 1000;
 }
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: left;
+  position: relative;
+}
