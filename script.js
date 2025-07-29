@@ -81,5 +81,10 @@ searchBar.addEventListener('keyup', (event) => {
   const query = event.target.value.toLowerCase();
 
 const filtered = restaurants.filter((res) =>
-res.name.toLowerCase)  
-})
+res.name.toLowerCase().includes(query) ||
+res.cuisine.toLowerCase().includes(query) ||
+res.location.toLowerCase().includes(query)
+);
+
+displayRestaurants(filtered);
+});
