@@ -75,3 +75,4 @@ function displayRestaurants(data) {
 }
 
 displayRestaurants(restaurants);
+const searchBar = document.getElementById('searchbar');
