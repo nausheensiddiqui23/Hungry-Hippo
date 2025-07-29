@@ -100,6 +100,10 @@ document.addEventListener('click', (e) => {
   }
 });
 
+function showDetails(restaurant) {
+  const modal = document.createElement('div');
+
+
 });
 const categoryButtons = document.querySelectorAll('.category');
 
