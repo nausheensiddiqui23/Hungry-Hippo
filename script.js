@@ -92,11 +92,16 @@ const categoryButtons = document.querySelectorAll('.category');
 
 categoryButtons.forEach(button => {
   button.addEventListener('click', () => {
-    const selectedCuisine = button.textContent.trim();
+    // Remove 'active' from all
+    categoryButtons.forEach(btn => btn.classList.remove('active'));
 
-     if (selectedCuisine === 'All') {
+    // Add 'active' to clicked
+    button.classList.add('active');
+
+    const selectedCuisine = button.textContent.trim();
+    if (selectedCuisine === 'All') {
       displayRestaurants(restaurants);
-      } else {
+    } else {
       const filtered = restaurants.filter(res =>
         res.cuisine.toLowerCase() === selectedCuisine.toLowerCase()
       );
