@@ -10,7 +10,7 @@ const restaurants = [
 
 {
     name: "Pizza Hut",
-    cuisine: "Italian",
+    cuisine: "Pizza",
     location: "Mumbai",
     rating: 4.0,
     image: "assets/images/Pizza_hut.svg",
