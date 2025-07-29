@@ -88,3 +88,4 @@ res.location.toLowerCase().includes(query)
 
 displayRestaurants(filtered);
 });
+const categoryButtons = document.querySelectorAll('.category');
