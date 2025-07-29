@@ -177,3 +177,9 @@ body {
   margin: 5px 0;
   color: #777;
 }
+
+.category.active{
+  background-color: #d17ee0;
+  color: white;
+  font-weight: bold;
+}
