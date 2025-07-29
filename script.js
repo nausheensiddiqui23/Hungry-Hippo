@@ -1,7 +1,7 @@
 const restaurants = [
 {
     name: "Burger King",
-    cuisine: "Fast Food",
+    cuisine: "Burger",
     location: "Delhi",
     rating: 4.3,
     image: "assets/images/burger_king.png"
@@ -20,7 +20,7 @@ const restaurants = [
 
 {
     name: "Behrouz",
-    cuisine: "Indian",
+    cuisine: "Mughlai",
     location: "Hyderabad",
     rating: 4.5,
     image: "assets/images/behrouz.jpeg"
