@@ -76,6 +76,7 @@ function displayRestaurants(data) {
 }
 
 displayRestaurants(restaurants);
+
 const searchBar = document.getElementById('searchBar');
 
 searchBar.addEventListener('keyup', (event) => {
@@ -88,6 +89,17 @@ res.location.toLowerCase().includes(query)
 );
 
 displayRestaurants(filtered);
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('view-btn')) {
+    const name = e.target.getAttribute('data-name');
+    const restaurant = restaurants.find(r => r.name === name);
+
+    if (restaurant) {
+      showDetails(restaurant);
+    }
+  }
+});
+
 });
 const categoryButtons = document.querySelectorAll('.category');
 
