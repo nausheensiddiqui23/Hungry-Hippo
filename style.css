@@ -183,3 +183,7 @@ body {
   color: white;
   font-weight: bold;
 }
+.modal{
+  position: fixed;
+  top: 0;
+}
