@@ -94,4 +94,13 @@ categoryButtons.forEach(button => {
   button.addEventListener('click', () => {
     const selectedCuisine = button.textContent.trim();
 
-})
+     if (selectedCuisine === 'All') {
+      displayRestaurants(restaurants);
+      } else {
+      const filtered = restaurants.filter(res =>
+        res.cuisine.toLowerCase() === selectedCuisine.toLowerCase()
+      );
+      displayRestaurants(filtered);
+    }
+  });
+});
