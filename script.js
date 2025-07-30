@@ -111,6 +111,11 @@ function showDetails(restaurant) {
 
   document.querySelector('.close-btn').onclick = () => modal.remove();
 }
+const cartItems = [];
+const cartList = document.getElementById('cart-items');
+const emptyCartMsg = document.getElementById('empty-cart-msg');
+const clearCartBtn = document.getElementById('clear-cart');
+
 
 // 🍔 Category buttons
 const categoryButtons = document.querySelectorAll('.category');
