@@ -128,7 +128,19 @@ function addToCart(restaurant) {
   cartItems.push(restaurant);
   renderCart();
 }
-
+function renderCart() {
+  cartList.innerHTML = '';
+  if (cartItems.length === 0) {
+    emptyCartMsg.style.display = 'block';
+  } else {
+    emptyCartMsg.style.display = 'none';
+    cartItems.forEach((item, index) => {
+      const li = document.createElement('li');
+      li.textContent = `${item.name} (${item.cuisine})`;
+      cartList.appendChild(li);
+    });
+  }
+}
 
 // 🍔 Category buttons
 const categoryButtons = document.querySelectorAll('.category');
