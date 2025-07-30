@@ -124,6 +124,11 @@ document.addEventListener('click', (e) => {
     }
   }
 });
+function addToCart(restaurant) {
+  cartItems.push(restaurant);
+  renderCart();
+}
+
 
 // 🍔 Category buttons
 const categoryButtons = document.querySelectorAll('.category');
