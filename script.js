@@ -59,6 +59,8 @@ function displayRestaurants(data) {
         <p>${res.cuisine} | ${res.location}</p>
         <p>⭐ ${res.rating}</p>
         <button class="view-btn" data-name="${res.name}">View More</button>
+        <button class="cart-btn" data-name="${res.name}">Add to Cart</button>
+
       </div>
     `;
     listContainer.appendChild(card);
