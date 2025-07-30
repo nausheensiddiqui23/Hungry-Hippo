@@ -234,3 +234,11 @@ body {
 #cart li {
   margin: 5px 0;
 }
+#clear-cart {
+  margin-top: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
