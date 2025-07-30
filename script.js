@@ -141,6 +141,10 @@ function renderCart() {
     });
   }
 }
+clearCartBtn.addEventListener('click', () => {
+  cartItems.length = 0; // Clear the cart array
+  renderCart(); // Re-render the cart
+});
 
 // 🍔 Category buttons
 const categoryButtons = document.querySelectorAll('.category');
