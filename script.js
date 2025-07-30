@@ -115,7 +115,15 @@ const cartItems = [];
 const cartList = document.getElementById('cart-items');
 const emptyCartMsg = document.getElementById('empty-cart-msg');
 const clearCartBtn = document.getElementById('clear-cart');
-
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('cart-btn')) {
+    const name = e.target.getAttribute('data-name');
+    const restaurant = restaurants.find(r => r.name === name);
+    if (restaurant) {
+      addToCart(restaurant);
+    }
+  }
+});
 
 // 🍔 Category buttons
 const categoryButtons = document.querySelectorAll('.category');
