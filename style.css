@@ -163,8 +163,11 @@ body {
 }
 
 .card-body {
-  padding: 15px;
-  text-align: left;
+  /* padding: 15px;
+  text-align: left; */
+ display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-body h3 {
