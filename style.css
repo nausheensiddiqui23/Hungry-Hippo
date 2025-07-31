@@ -284,3 +284,7 @@ body {
 .view-btn:hover {
   background-color: #5d3780;
 }
+.cart-btn {
+  background-color: #ff7f50;
+  color: #fff;
+}
