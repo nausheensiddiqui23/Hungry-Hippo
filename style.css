@@ -221,6 +221,7 @@ body {
 
 .cart {
   background: transparent;
+  box-shadow: none;
 }
 
 .cart h3 {
