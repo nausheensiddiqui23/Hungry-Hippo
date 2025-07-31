@@ -281,3 +281,6 @@ body {
   background-color: #7b4ca0;
   color: #fff;
 }
+.view-btn:hover {
+  background-color: #5d3780;
+}
