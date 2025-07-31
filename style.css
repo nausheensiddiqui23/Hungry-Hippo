@@ -288,3 +288,6 @@ body {
   background-color: #ff7f50;
   color: #fff;
 }
+.cart-btn:hover {
+  background-color: #e86534;
+}
