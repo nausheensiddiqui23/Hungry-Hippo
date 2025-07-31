@@ -2,42 +2,42 @@ const restaurants = [
   {
     name: "Burger King",
     cuisine: "Burger",
-    location: "Delhi",
+    location: "Chowk",
     rating: 4.3,
     image: "assets/images/burger_king.png"
   },
   {
     name: "Pizza Hut",
     cuisine: "Pizza",
-    location: "Mumbai",
+    location: "Hazratganj",
     rating: 4.0,
     image: "assets/images/Pizza_hut.svg"
   },
   {
     name: "Behrouz",
     cuisine: "Biryani",
-    location: "Hyderabad",
+    location: "Lulu Mall",
     rating: 4.5,
     image: "assets/images/behrouz.jpeg"
   },
   {
     name: "Chinese wok",
     cuisine: "Chinese",
-    location: "Kolkata",
+    location: "Hazratganj",
     rating: 4.1,
     image: "assets/images/chinese_wok.avif"
   },
   {
     name: "Mubeens",
     cuisine: "Mughlai",
-    location: "Lucknow",
+    location: "Akbari Gate",
     rating: 4.5,
     image: "assets/images/mubeens.jpeg"
   },
   {
     name: "The Hazelnut Factory",
     cuisine: "Dessert",
-    location: "Lucknow",
+    location: "Aliganj",
     rating: 3.9,
     image: "assets/images/thf.jpeg"
   }
