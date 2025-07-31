@@ -277,3 +277,7 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
+.view-btn {
+  background-color: #7b4ca0;
+  color: #fff;
+}
