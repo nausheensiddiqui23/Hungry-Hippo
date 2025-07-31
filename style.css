@@ -232,6 +232,7 @@ body {
 }
 .cart i{
   font-size: 28px;
+  cursor: pointer;
 }
 
 .cart h3 {
