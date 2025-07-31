@@ -269,4 +269,11 @@ body {
 
 .view-btn, .cart-btn {
   padding: 10px 15px;
+  margin: 8px 5px 0 5px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
