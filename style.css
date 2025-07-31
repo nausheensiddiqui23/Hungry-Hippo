@@ -261,3 +261,8 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.card-body {
+  text-align: center;
+  padding: 10px;
+}
