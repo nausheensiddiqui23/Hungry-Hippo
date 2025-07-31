@@ -58,10 +58,8 @@ function displayRestaurants(data) {
         <h3>${res.name}</h3>
         <p>${res.cuisine} | ${res.location}</p>
         <p>⭐ ${res.rating}</p>
-        <button class="view-btn" data-name="${res.name}">
-        <i class="fa-solid fa-eye"></i>View More</button>
-        <button class="cart-btn" data-name="${res.name}">
-          <i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        <button class="view-btn" data-name="${res.name}">View More</button>
+        <button class="cart-btn" data-name="${res.name}">Add to Cart</button>
 
       </div>
     `;
