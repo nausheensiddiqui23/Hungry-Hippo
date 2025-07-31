@@ -223,6 +223,8 @@ body {
   background: transparent;
   box-shadow: none;
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .cart h3 {
