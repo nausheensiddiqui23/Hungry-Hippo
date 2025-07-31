@@ -169,11 +169,16 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.card-body button {
+/* .card-body button {
   width: 80%;
   max-width: 200px;
+} */
+.card-body .view-btn,
+.card-body .cart-btn {
+  display: inline-block;
+  width: 120px;
+  margin: 6px;
 }
-
 .card-body h3 {
   margin: 0 0 10px;
   font-size: 1.2rem;
