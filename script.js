@@ -147,6 +147,9 @@ clearCartBtn.addEventListener('click', () => {
 });
 
 // 🍔 Category buttons
+document.addEventListener('DOMContentLoaded', () => {
+  displayRestaurants(restaurants);
+  
 const categoryButtons = document.querySelectorAll('.category');
 categoryButtons.forEach(button => {
   button.addEventListener('click', () => {
