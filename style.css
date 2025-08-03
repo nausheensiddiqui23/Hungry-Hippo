@@ -323,3 +323,13 @@ body {
   background-color: #6c63ff;
   color: white;
 }
+.view-btn:hover {
+  background-color: #5547d1;
+}
+.cart-btn {
+  background-color: #ff6f61;
+  color: white;
+}
+.cart-btn:hover {
+  background-color: #e65a2d;
+}
