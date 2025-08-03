@@ -307,4 +307,6 @@ body {
 
 .category.active{
   background-color: #b197fc;
+  color: white;
+  border-radius: 20px;
 }
