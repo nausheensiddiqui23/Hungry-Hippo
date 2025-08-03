@@ -149,7 +149,7 @@ clearCartBtn.addEventListener('click', () => {
 // 🍔 Category buttons
 document.addEventListener('DOMContentLoaded', () => {
   displayRestaurants(restaurants);
-  
+
 const categoryButtons = document.querySelectorAll('.category');
 categoryButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -157,13 +157,10 @@ categoryButtons.forEach(button => {
     button.classList.add('active');
 
     const selectedCuisine = button.textContent.trim();
-    if (selectedCuisine === 'All') {
-      displayRestaurants(restaurants);
-    } else {
-      const filtered = restaurants.filter(res =>
+     const filtered = restaurants.filter(res =>
         res.cuisine.toLowerCase() === selectedCuisine.toLowerCase()
       );
       displayRestaurants(filtered);
-    }
+    });
   });
 });
