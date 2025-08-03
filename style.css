@@ -304,3 +304,7 @@ body {
 .cart-btn:hover {
   background-color: #d250c5;
 }
+
+.category.active{
+  
+}
