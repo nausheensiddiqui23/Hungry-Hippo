@@ -310,3 +310,6 @@ body {
   color: white;
   border-radius: 20px;
 }
+.view-btn, .cart-btn{
+  padding: 8px 14px;
+}
