@@ -355,3 +355,36 @@ body {
 #login-btn:hover {
   background-color: #a080f2;
 }
+/* ----------  top-right bar  ---------- */
+.top-bar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;          /* space between button & icon  */
+  z-index: 1000;      /* keeps it above everything   */
+}
+
+/* cart icon */
+.cart-icon {
+  font-size: 40px;    /* tweak size as you like       */
+  color: #B197FC;
+  cursor: pointer;
+}
+
+/* login button */
+#loginBtn {
+  padding: 8px 16px;
+  background: #B197FC;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+#loginBtn:hover {
+  background: #9f82e6;
+}
