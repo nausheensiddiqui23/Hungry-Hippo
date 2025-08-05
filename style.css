@@ -388,29 +388,3 @@ body {
 #loginBtn:hover {
   background: #9f82e6;
 }
-.top-actions {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 12px;
-  margin: 20px;
-}
-.cart-icon {
-  font-size: 32px;
-  color: #B197FC;
-  cursor: pointer;
-}
-#loginBtn {
-  padding: 8px 16px;
-  background: #B197FC;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.25s;
-}
-
-#loginBtn:hover {
-  background: #9f82e6;
-}
