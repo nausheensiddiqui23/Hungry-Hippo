@@ -352,4 +352,6 @@ body {
   cursor: pointer;
   transition: background 0.3s;
 }
-
+#login-btn:hover {
+  background-color: #a080f2;
+}
