@@ -342,3 +342,14 @@ body {
   gap: 12px;
   z-index: 1000;
 }
+#login-btn {
+  padding: 8px 16px;
+  background-color: #B197FC;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
