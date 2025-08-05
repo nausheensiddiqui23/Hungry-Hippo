@@ -142,9 +142,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
-  document.getElementById('login-btn').addEventListener('click', () => {
-  alert("Redirect to login/signup page or open modal here.");
+  document.getElementById('loginBtn').addEventListener('click', () => {
+  // open modal or redirect to login.html
+  window.location.href = 'login.html';
 });
+
 
 
   function addToCart(restaurant) {
